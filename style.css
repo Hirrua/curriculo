@@ -1,0 +1,195 @@
+body {
+  background-color: #f6f5f5;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 1%;
+}
+
+nav ul {
+  display: flex;
+}
+.back-color {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.conteudo-texto {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+}
+
+.conteiner-right {
+  background-color: #27c5cb;
+  padding-left: 8px;
+  width: 50%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: "Inter", sans-serif;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: "Ms Madi", cursive;
+  color: black;
+  cursor: pointer;
+}
+
+.imgbg {
+  width: 290px;
+  height: 290px;
+  border-radius: 8%;
+}
+
+a.nav:hover {
+  color: #27c5cb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.avatar {
+  width: 290px;
+  height: 290px;
+  margin-left: -130px;
+  border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #505050;
+  font-family: "Inter", sans-serif;
+}
+
+.sobre {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.curriculo {
+  background-color: rgba(23, 228, 235, 0.39);
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.curriculum {
+  padding: 8px;
+  margin: 8px 0;
+  text-align: center;
+  width: 70%;
+  height: auto;
+}
+
+.contato {
+  display: grid;
+  font-family: "Inter", sans-serif;
+}
+
+.contato > a {
+  color: black;
+}
+
+.hyperlink {
+  color: black;
+}
+
+.contato > ul {
+  padding: 0;
+}
+
+p.curriculum {
+  font-family: "Inter", sans-serif;
+}
+
+p.dev {
+  color: #008f95;
+  font-family: "Inter", sans-serif;
+}
+
+div img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+div img:hover{
+  transform: scale(1.1);
+}
+
+div img{
+  transition: transform .3s;
+}
+
+ul {
+  list-style: none;
+}
+
+section ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+section ul li:hover{
+  transform: scale(1.1);
+}
+
+section ul li {
+  transition: transform .3s;
+}
